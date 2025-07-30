@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <h1>Student Information Form</h1>
+        <br><br>
+        <fieldset>
+            <legend>Personal Information</legend><br><br>
+            <label for="name">Full Name: </label>
+            <input type="text" id="name" name="name" >
+            <br><br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" autoplay="off">
+            <br><br>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" >
+            <br><br>
+            <label for="dob">Date of Birth: </label>
+            <input type="date" id="dob" name="dob" >
+            <br>
+             <p>Short Bio:</p>
+            <textarea id="bio" name="bio" rows="5" cols="50" placeholder="Tell us about yourself....."></textarea>
+            <br><br>
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" name="male" value="m">Male
+            <br>
+            <input type="radio" name="male" value="m" >Female
+            <br>
+            <input type="radio" name="male" value="m">Others
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Areas of Interest</legend>
+            <input type="checkbox" name="WD" value="WD">Web Development
+            <br>
+            <input type="checkbox" name="AI" value="AI">Artifical Intelligence
+            <br>
+            <input type="checkbox" name="DS" value="DS">Data Science
+            <br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Programming Skill Level</legend>
+            <Label>Rate your skill (0 to 10):</Label><br>
+            <input type="range"  min="0" max="10"><br><br>
+            <br>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Upload Your Photo</legend>
+            <input type="file" >
+            <br><br>
+        </fieldset>
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
